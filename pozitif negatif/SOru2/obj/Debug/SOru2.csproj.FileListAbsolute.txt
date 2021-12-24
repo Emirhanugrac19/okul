@@ -1,0 +1,9 @@
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\bin\Debug\SOru2.exe.config
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\bin\Debug\SOru2.exe
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\bin\Debug\SOru2.pdb
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\obj\Debug\SOru2.csprojResolveAssemblyReference.cache
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\obj\Debug\SOru2.Form1.resources
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\obj\Debug\SOru2.Properties.Resources.resources
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\obj\Debug\SOru2.csproj.GenerateResource.Cache
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\obj\Debug\SOru2.exe
+c:\users\lab\documents\visual studio 2013\Projects\SOru2\SOru2\obj\Debug\SOru2.pdb

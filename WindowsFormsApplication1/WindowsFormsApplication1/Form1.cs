@@ -83,7 +83,7 @@ namespace WindowsFormsApplication1
             listBox1.Items.Clear();
             for (int i = 0; i <= 100; i++)
             {
-                if (i % 2 ==0)
+                if (i % 2 == 0)
                 {
                     listBox1.Items.Add(i);
                 }
@@ -140,7 +140,7 @@ namespace WindowsFormsApplication1
             //10. Örnek: Klavyeden girilen 10 adet sayının toplamını bulup ekranda gösteren programın algoritmasını yazınız.
 
             listBox1.Items.Clear();
-            int rast = rnd.Next(1, 100),toplam = 0;
+            int rast = rnd.Next(1, 100), toplam = 0;
             for (int i = 1; i <= 10; i++)
             {
                 toplam += rast;
@@ -169,14 +169,14 @@ namespace WindowsFormsApplication1
             //12. Örnek: Klavyeden girilen 10 adet sayıdan 50’den büyük olanları ekrana yazdıran programın algoritmasını yazınız.
 
             listBox1.Items.Clear();
-            int rast; 
+            int rast;
             for (int i = 1; i <= 10; i++)
             {
                 rast = rnd.Next(1, 100);
                 if (rast > 50)
                 {
                     listBox1.Items.Add(rast);
-                }       
+                }
             }
         }
 
@@ -185,7 +185,7 @@ namespace WindowsFormsApplication1
             //13. Örnek: Klavyeden girilen 10 adet sayıdan 50’den büyük kaç adet sayı olduğunu ekranda gösteren programın algoritmasını yazınız.
 
             listBox1.Items.Clear();
-            int rast,sayac=0;
+            int rast, sayac = 0;
 
             for (int i = 1; i <= 10; i++)
             {
@@ -193,7 +193,7 @@ namespace WindowsFormsApplication1
                 rast = rnd.Next(1, 100);
                 if (rast > 50)
                 {
-                    
+
                 }
             }
             listBox1.Items.Add(sayac);
@@ -209,7 +209,7 @@ namespace WindowsFormsApplication1
             {
                 rast = rnd.Next(0, 101);
                 toplam += rast;
-                
+
             }
             ortalama = toplam / 40;
             listBox1.Items.Add(toplam);
@@ -275,8 +275,8 @@ namespace WindowsFormsApplication1
             int rast, sayac = 0;
             for (int i = 1; i <= 20; i++)
             {
-                rast = rnd.Next(1,100);
-                if (rast>=18 && rast<=25)
+                rast = rnd.Next(1, 100);
+                if (rast >= 18 && rast <= 25)
                 {
                     sayac++;
                 }
@@ -322,10 +322,10 @@ namespace WindowsFormsApplication1
             {
                 for (int a = 0; a < 1; a++)
                 {
-                    karesi = i*i;
+                    karesi = i * i;
                     listBox1.Items.Add(karesi);
                 }
-       
+
             }
         }
 
@@ -372,7 +372,7 @@ namespace WindowsFormsApplication1
                 {
                     toplam += i;
                 }
-                
+
             }
             ortalama = toplam / 50;
             listBox1.Items.Add(ortalama);
@@ -398,8 +398,96 @@ namespace WindowsFormsApplication1
         private void button27_Click(object sender, EventArgs e)
         {
             //27. Örnek: Klavyeden okunan 2 sayı arasındaki sayılardan tek olanları ekranda listeleyen programın algoritmasını yazınız.
+            listBox1.Items.Clear();
 
+            int sayi1 = int.Parse(txtIsim.Text), sayi2 = int.Parse(txtSayi.Text);
 
+            for (int i = sayi1; i <= sayi2; i++)
+            {
+                if (i % 2 != 0)
+                {
+                    listBox1.Items.Add(i);
+                }
+            }
+
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            //28. Örnek: Klavyeden girilen 20 adet sayıdan çift ve tek sayıların toplamını ayrı ayrı bulup ekranda gösteren programın algoritmasını yazınız.
+
+            listBox1.Items.Clear();
+
+            Random random = new Random();
+            int rast, çfttoplam = 0, tektoplam = 0;
+
+            for (int i = 0; i <= 20; i++)
+            {
+                rast = random.Next(1, 50);
+
+                if (rast % 2 == 0)
+                {
+                    çfttoplam += i;
+                }
+
+                if (rast % 2 == 1)
+                {
+                    tektoplam += i;
+                }
+            }
+
+            listBox1.Items.Add("Tek Sayıların Toplamı : " + tektoplam);
+            listBox1.Items.Add("Çift Sayıların Toplamı : " + çfttoplam);
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            //29. Örnek: Klavyeden girilen 10 adet sayıdan hangilerinin 3’e tam bölünüp bölünmediğini bulan programın algoritmasını yazınız.
+
+            listBox1.Items.Clear();
+
+            Random random = new Random();
+
+            int rnd;
+
+            for (int i = 0; i < 10; i++)
+            {
+                rnd = random.Next(1, 50);
+
+                if (rnd % 3 == 0)
+                {
+                    listBox1.Items.Add("bölünen" + rnd);
+                }
+                if (rnd % 3 != 0)
+                {
+                    listBox1.Items.Add("bölünmeyen" + rnd);
+                }
+            }
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            //30. Örnek: Klavyeden girilen 10 adet sayıdan hangilerinin 3’e ve 5’e tam bölünüp bölünmediğini bulan programın algoritmasını yazınız.
+
+            listBox1.Items.Clear();
+
+            Random random = new Random();
+
+            int rnd;
+
+            for (int i = 0; i < 10; i++)
+            {
+                rnd = random.Next(1, 100);
+
+                if (rnd % 3 == 0 && rnd % 5 == 0)
+                {
+                    listBox1.Items.Add("bölünen" + rnd);
+                }
+                if (rnd % 3 != 0 && rnd % 5 != 0)
+                {
+                    listBox1.Items.Add("bölünmeyen" + rnd);
+                }
+            }
         }
     }
 }

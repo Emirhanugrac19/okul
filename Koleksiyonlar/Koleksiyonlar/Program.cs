@@ -11,6 +11,7 @@ namespace Koleksiyonlar
         static void Main(string[] args)
         {
             #region Dizeler Örnekleri
+            #region Örnek 1
             // int[] sayilar = new int[5];
             //string[] isimler = new string[5];
             //bool[] durumlar = new bool[5];
@@ -43,6 +44,20 @@ namespace Koleksiyonlar
             //    Console.WriteLine("Kesirler :  " + kesirler[i]);
             //}
             //Console.ReadKey();
+            #endregion
+            #region Örnek 2
+            // Farklı Değer Atamaları
+            int[] sayilar = new int[] { 5, 6, 7, 8, 9 };
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(sayilar[i]);
+            }
+            string[] isimler = { "UTKU", "FURKAN", "ARDA", "EMİR", "CELAL" };
+            foreach (var item in isimler)
+            {
+                Console.WriteLine(item);
+            }
+            #endregion
             #endregion
             Console.ReadKey();
         }

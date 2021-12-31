@@ -1,0 +1,6 @@
+C:\Users\LAB\documents\visual studio 2013\Projects\Koleksiyonlar\Koleksiyonlar\bin\Debug\Koleksiyonlar.exe.config
+C:\Users\LAB\documents\visual studio 2013\Projects\Koleksiyonlar\Koleksiyonlar\bin\Debug\Koleksiyonlar.exe
+C:\Users\LAB\documents\visual studio 2013\Projects\Koleksiyonlar\Koleksiyonlar\bin\Debug\Koleksiyonlar.pdb
+C:\Users\LAB\documents\visual studio 2013\Projects\Koleksiyonlar\Koleksiyonlar\obj\Debug\Diziler.csprojResolveAssemblyReference.cache
+C:\Users\LAB\documents\visual studio 2013\Projects\Koleksiyonlar\Koleksiyonlar\obj\Debug\Koleksiyonlar.exe
+C:\Users\LAB\documents\visual studio 2013\Projects\Koleksiyonlar\Koleksiyonlar\obj\Debug\Koleksiyonlar.pdb

@@ -41,7 +41,6 @@ namespace Koleksiyonlar
             //    Console.WriteLine("İsimler :  " + isimler[i]);
             //    Console.WriteLine("Durumlar :  " + durumlar[i]);
             //    Console.WriteLine("Kesirler :  " + kesirler[i]);
-
             //}
             //Console.ReadKey();
             #endregion

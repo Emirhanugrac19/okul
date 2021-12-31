@@ -47,16 +47,122 @@ namespace Koleksiyonlar
             #endregion
             #region Örnek 2
             // Farklı Değer Atamaları
-            int[] sayilar = new int[] { 5, 6, 7, 8, 9 };
-            for (int i = 0; i < 5; i++)
+            //int[] sayilar = new int[] { 5, 6, 7, 8, 9 };
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine(sayilar[i]);
+            //}
+
+
+            //string[] isimler = { "UTKU", "FURKAN", "ARDA", "EMİR", "CELAL" };
+            //foreach (var item in isimler)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            //int[] sayilar2 = new int[10]; //Tek satırda tanımlama
+
+
+            //int[] sayilar3;         // 2 satırda dizi tanımlama
+            //sayilar = new int[10];
+
+
+            //int[] sayilar4 = { 5, 7, 12, 36 };
+            //// tanımlama sırasında int tipi diziye değer girişi  
+            //string[] isimler2 = { "Ahmet", "Mehmet", "Burak", "Hasan" };
+            //// tanımlama sırasında string tipinde diziye değer girişi  
+            //char[] harfler = { 'k', 'l', 'h', 'Y' };
+            //// tanımlama sırasında char tipindeki diziye değer atama
+            //#endregion
+            //#region Örnek 3
+            //int mevcut=0;
+            //Console.Write("Sınıf mevcudunu Girin : ");
+            //mevcut = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine();
+            //string[] ogrenci = new string[mevcut];
+
+            //for(int i=0;i<mevcut;i++)
+            //{
+            //    Console.Write("Öğrenci Adını Girin : ");
+            //    ogrenci[i]=Console.ReadLine();
+            //}
+            #endregion
+            #region Örnek 3
+            //int mevcut=0;
+            //Console.Write("Sınıf mevcudunu Girin : ");
+            //mevcut = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine();
+            //string[] ogrenci = new string[mevcut];
+
+            //for(int i=0;i<mevcut;i++)
+            //{
+            //    Console.Write("Öğrenci Adını Girin : ");
+            //    ogrenci[i]=Console.ReadLine();
+            //}
+
+            //Console.ReadKey();
+            #endregion
+            #region Örnek 4
+
+            //int pozitif = 0;
+            //int negatif = 0;
+            //int notr = 0;
+            //Random rnd = new Random();
+
+            //int[] sayilar = new int[20];
+
+            //for (int i = 0; i < 20;i++ )
+            //{
+            //    sayilar[i] = rnd.Next(-100, 100);
+            //}
+
+            //foreach(int sayi in sayilar)
+            //{
+            //    Console.WriteLine(sayi);
+            //    if(sayi>0)
+            //    {
+            //        pozitif++;
+            //    }
+            //    else if(sayi<0)
+            //    {
+            //        negatif++;
+            //    }
+            //    else
+            //    {
+            //        notr++;
+            //    }
+            //}
+            //Console.WriteLine("Pozitif Sayı Adeti>>> " + pozitif);
+            //Console.WriteLine("Negatif Sayı Adeti>>> " + negatif);
+            //Console.WriteLine("İşaretsiz Sayı Adeti>>> " + notr);
+            #endregion
+            #region Örnek 5
+            int sayac = 0;
+            Random rnd = new Random();
+            int rast;
+            int[] sayilar2 =  new int[20];
+            for (int i = 0; i < 20; i++)
             {
-                Console.WriteLine(sayilar[i]);
+                rast = rnd.Next(1, 100);
+                Console.WriteLine("Rastgele Sayı : " + rast);
+                sayilar2[i] = rast;
             }
-            string[] isimler = { "UTKU", "FURKAN", "ARDA", "EMİR", "CELAL" };
-            foreach (var item in isimler)
+            Console.WriteLine("=====================");
+            foreach (int sayi in sayilar2)
             {
-                Console.WriteLine(item);
+
+                if (sayi % 2 == 1)
+                {
+                    sayac++;
+                    
+                    Console.WriteLine(sayi + 1);
+                }
+
             }
+            Console.WriteLine("Tek sayı adeti= " + sayac);
+
+            Console.ReadKey();
             #endregion
             #endregion
             Console.ReadKey();

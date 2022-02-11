@@ -54,3 +54,12 @@ C:\Users\LAB\Desktop\_KitapDukkani_1\_KitapDukkani\obj\Debug\_KitapDukkani.cspro
 C:\Users\LAB\Desktop\_KitapDukkani_1\_KitapDukkani\obj\Debug\_KitapDukkani.Form1.resources
 C:\Users\LAB\Desktop\_KitapDukkani_1\_KitapDukkani\obj\Debug\_KitapDukkani.Properties.Resources.resources
 C:\Users\LAB\Desktop\_KitapDukkani_1\_KitapDukkani\obj\Debug\_KitapDukkani.csproj.GenerateResource.Cache
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\bin\Debug\_KitapDukkani.exe.config
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\obj\Debug\_KitapDukkani.exe
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\obj\Debug\_KitapDukkani.pdb
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\bin\Debug\_KitapDukkani.exe
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\bin\Debug\_KitapDukkani.pdb
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\obj\Debug\_KitapDukkani.csprojResolveAssemblyReference.cache
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\obj\Debug\_KitapDukkani.Form1.resources
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\obj\Debug\_KitapDukkani.Properties.Resources.resources
+C:\Users\LAB\Documents\GitHub\okul\CLASS ÖRNEKLERİ\Class Örneği 1\_KitapDukkani\obj\Debug\_KitapDukkani.csproj.GenerateResource.Cache

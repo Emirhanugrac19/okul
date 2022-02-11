@@ -71,10 +71,10 @@ namespace _KitapDukkani
         private void btnMusterileriGetir_Click(object sender, EventArgs e)
         {
             lsbMusteriler.Items.Clear();
-            lsbMusteriler.Items.Add("Adı Mesleği Kitapadı Yaşı");
+            lsbMusteriler.Items.Add("Adı Kitap_Adı Fiyatı Yazarı");
             foreach (Musteriler veriler in musteriler)
             {
-                lsbMusteriler.Items.Add(veriler.MusteriAdi + " " + veriler.Meslegi + " " + veriler.Kitap + " " + veriler.Yas);
+                lsbMusteriler.Items.Add(veriler.MusteriAdi + " " + veriler.Kitap.KitapAdi + " " + veriler.Kitap.Fiyat + " " + veriler.Kitap.yazar.YazarAdi);
             }
         }
     }

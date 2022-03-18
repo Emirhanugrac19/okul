@@ -1,0 +1,9 @@
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\bin\Debug\Veri Tabanı Bağlantı2.exe.config
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\obj\Debug\Veri Tabanı Bağlantı2.csprojResolveAssemblyReference.cache
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\obj\Debug\Veri_Tabanı_Bağlantı2.Form1.resources
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\obj\Debug\Veri_Tabanı_Bağlantı2.Properties.Resources.resources
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\obj\Debug\Veri Tabanı Bağlantı2.csproj.GenerateResource.Cache
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\bin\Debug\Veri Tabanı Bağlantı2.exe
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\bin\Debug\Veri Tabanı Bağlantı2.pdb
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\obj\Debug\Veri Tabanı Bağlantı2.exe
+c:\users\lab\documents\visual studio 2013\Projects\Veri Tabanı Bağlantı2\Veri Tabanı Bağlantı2\obj\Debug\Veri Tabanı Bağlantı2.pdb
